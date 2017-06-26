@@ -48,6 +48,9 @@ GEM
       dry-equalizer (~> 0.2)
       dry-logic (~> 0.4, >= 0.4.0)
       dry-types (~> 0.9, >= 0.9.0)
+    haml (5.0.1)
+      temple (>= 0.8.0)
+      tilt
     hanami (1.0.0)
       bundler (~> 1.13)
       concurrent-ruby (~> 1.0)
@@ -161,6 +164,7 @@ GEM
     sequel (4.47.0)
     shotgun (0.9.2)
       rack (>= 1.0)
+    temple (0.8.0)
     thor (0.19.4)
     tilt (2.0.7)
     transproc (1.0.2)
@@ -176,6 +180,7 @@ PLATFORMS
 DEPENDENCIES
   capybara
   dotenv (~> 2.0)
+  haml
   hanami (~> 1.0)
   hanami-model (~> 1.0)
   pg
@@ -183,6 +188,9 @@ DEPENDENCIES
   rspec
   rubocop
   shotgun
+
+RUBY VERSION
+   ruby 2.4.1p111
 
 BUNDLED WITH
    1.14.6

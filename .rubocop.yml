@@ -19,6 +19,9 @@ Style/FileName:
 Style/Documentation:
   Enabled: false
 
+Style/ClassAndModuleChildren:
+  Enabled: false
+
 Layout/EmptyLineAfterMagicComment:
   Enabled: false
 

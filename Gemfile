@@ -3,6 +3,7 @@ source "https://rubygems.org"
 
 ruby "2.4.1"
 
+gem "haml"
 gem "hanami", "~> 1.0"
 gem "hanami-model", "~> 1.0"
 gem "pg"
