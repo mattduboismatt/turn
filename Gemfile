@@ -17,6 +17,10 @@ end
 
 group :test, :development do
   gem "dotenv", "~> 2.0"
+  gem "factory_girl"
+  gem "faker"
+  gem "pry"
+  gem "pry-nav"
   gem "rubocop"
 end
 

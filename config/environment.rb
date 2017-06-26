@@ -4,6 +4,9 @@ require "hanami/setup"
 require "hanami/model"
 require_relative "../lib/turn"
 require_relative "../apps/web/application"
+require "haml"
+
+Haml::TempleEngine.disable_option_validator!
 
 Hanami.configure do
   mount Web::Application, at: "/"

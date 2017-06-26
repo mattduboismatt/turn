@@ -27,3 +27,6 @@ Layout/EmptyLineAfterMagicComment:
 
 Metrics/BlockLength:
   Enabled: false
+
+Metrics/LineLength:
+  Enabled: false

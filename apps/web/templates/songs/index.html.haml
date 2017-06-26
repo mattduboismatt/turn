@@ -1,0 +1,9 @@
+%h1 Songs
+
+- if songs.any?
+  #songs
+    - songs.each do |song|
+      .song
+        %p= song.title
+- else
+  %p.placeholder There are no songs yet.
